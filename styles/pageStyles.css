@@ -18,11 +18,11 @@ article {
 		". body .";
 }
 
-#header{
+.header{
 	grid-area: header;
 }
 
-#intro {
+.intro {
 	grid-area: intro;
 }
 
@@ -31,11 +31,11 @@ figure {
 	margin: 16px 0;
 }
 
-#blog-body {
+.blog-body {
 	grid-area: body;
 }
 
-#navbar {
+.navbar {
 	display: flex;
 	align-items: center;
 	height: 50px;
@@ -47,29 +47,29 @@ figure {
 	padding-left: 10px;
 }
 
-#navbar > a {
+.navbar-link {
 	text-decoration: none;
 	color: white;
 }
 
-#navbar > #icon-set {
+.icon-set {
 	margin-left: auto;
 }
 
-#header > h1 {
+.blog-title {
 	font-size: 40px;
 }
 
-#author {
+.author {
 	display: flex;
 	align-items: center;
 }
 
-#author-info {
+.author-info {
 	padding-left: 20px;
 }
 
-#profile-image {
+.profile-image {
 	height: 75px;
 }
 
@@ -84,11 +84,11 @@ figure {
 	height: 30px;
 }
 
-figure > img {
+.figure-img {
 	width: 100%;
 }
 
-figure > figcaption {
+.figure-caption {
 	text-align: center;
 	font-size: 10px;
 }
