@@ -7,3 +7,6 @@ In this project, I've used both grid and flexbox layout for main page and page t
 On the main page, custom blog cards are created to display the title and summary of each blog and shadow in css is used to highlight each card when mouse hovers over the card.
 
 For page layout, I've used grid system to dynamically change the width of the main image depending on the screen size.
+
+The page can be viewed through the following link:
+https://jinc1026.github.io/personal-blog-website/
