@@ -1,0 +1,28 @@
+body {
+	display: grid !important;
+	grid-template-columns: 200px auto;
+	grid-template-rows: auto;
+}
+
+body header {
+	grid-area: 1/1/2/3;
+}
+
+body .navbar {
+	flex-direction: column;
+	align-items: center;
+	grid-row-gap: 10px;
+	grid-area: 2/1/3/2;
+}
+
+body .bloglist {
+	grid-area: 2/2/3/3;
+}
+
+body footer{
+	grid-area:3/1/4/3
+}
+
+body .sub-button {
+	margin-left: 0px;
+}

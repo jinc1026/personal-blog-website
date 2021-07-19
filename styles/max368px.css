@@ -1,0 +1,34 @@
+.page-title{
+	font-size: 24px;
+}
+
+body .navbar{
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+		"home featured featured about"
+		"subscribe subscribe subscribe subscribe";
+}
+
+.home {
+	grid-area: home;
+}
+
+.featured {
+	grid-area: featured;
+}
+
+.about{
+	grid-area: about;
+}
+
+body .sub-button{
+	margin: 10px 0;
+	grid-area: subscribe;
+}
+
+body .bloglist{
+	margin-top: 5px;
+}
